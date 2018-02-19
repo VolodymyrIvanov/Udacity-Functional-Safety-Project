@@ -1,7 +1,24 @@
 # Functional Safety of a Lane Assistance System
 
+## Project Description
 
+### Goal
 
+The goal of the project is creating the documentation for the functional safety of a Lane Assistance system based on [ISO 26262: Road vehicles - Functional safety](https://en.wikipedia.org/wiki/ISO_26262 "ISO 26262: Road vehicles - Functional safety"). ISO 26262 is an international standard for functional safety on electrical and/or electronic system in production automobiles defined by the International Organization for Standardization (ISO) in 2011. The Lane Assistance system is part of a Advanced Driver Assistance System (ADAS) with the following functionalities:
+
+- Lane departure warning:When the car departs a lane without using a turn signal the system will vibrate the steering wheel to warn the driver.
+- Lane keeping assistance: When the car departs a lane without using a turn signal the system will move the steering wheel back towards the lane center.
+
+### Project Files
+
+Project consists following documents:
+- [SafetyPlan](01_SafetyPlan_LaneAssistance.pdf)
+- [Hazard Analysis And Risk Assessment](02_HazardAnalysisAndRiskAssessment.pdf)
+- [Functional Safety Concept](03_FunctionalSafetyConcept_LaneAssistance.pdf)
+- [Technical Safety Concept](04_TechnicalSafetyConcept_LaneAssistance.pdf)
+- [Software Requirements And Architecture](05_SoftwareRequirementsAndArchitecture_LaneAssistance.pdf)
+
+## Project Description from original
 Your job will be to create functional safety documents based on what you learned in the lessons. These documents are simplified versions of what a functional safety manager would create as part of a safety case. A safety case is a collection of documents proving that a project has made a vehicle safer.
 
 
